@@ -29,7 +29,7 @@ require('./config/express')(app);
 var credentials =  extend({
   url: 'https://gateway.watsonplatform.net/dialog/api',
   username: '342a131f-6b18-4faa-872e-96d7c2dc468d',
-  password: 'SISiQWtrOBZC'
+  password: '8X2zsYUaEozS'
 }, bluemix.getServiceCreds('dialog')); // VCAP_SERVICES
 
 if (credentials.url.indexOf('/api') > 0)
