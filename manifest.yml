@@ -1,0 +1,9 @@
+applications:
+- name: firstapp
+  memory: 512M
+  path: ./dialog-tool-master
+  domain: mybluemix.net
+  host: Tryingapp
+  instances: 1
+  disk_quota: 1024M
+  
