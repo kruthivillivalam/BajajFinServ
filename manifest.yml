@@ -7,5 +7,5 @@ applications:
   - Dialog-hn
   name: bajajdialogidgen
   command: node app.js
-  path: .
+  path: ./dialog-tool-master
   memory: 512M
